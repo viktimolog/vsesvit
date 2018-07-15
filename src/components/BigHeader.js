@@ -21,9 +21,10 @@ export default class BigHeader extends Component {
         return (
             <div style={{
                 display: 'flex',
-                width: '98%',
+                // width: '98%',
                 flexDirection: 'row',
-                margin: '1%',
+                // margin: '1%',
+                margin: '15px',
                 justifyContent: 'space-between',
                 alignItems: 'center',
                 height: '5vh'
@@ -36,7 +37,8 @@ export default class BigHeader extends Component {
                         Вселенная современных технологий
                     </p>
                 </div>
-                <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-between', width: '30%'}}>
+                {/*<div style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-between', width: '30%'}}>*/}
+                <div style={{display: 'flex', flexDirection: 'row', borderRadius: '50px',flexBasis: '350px', justifyContent: 'space-between'}}>
                     <p><a style={{color: 'white'}} href="http://vsesvit.pro/company-page/" target='_blank'>О
                         компании</a></p>
                     <p><a style={{color: 'white'}} href="http://vsesvit.pro/news-page/" target='_blank'>Новости</a></p>

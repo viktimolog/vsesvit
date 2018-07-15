@@ -27,7 +27,7 @@ function FullWidthGrid(props) {
         <div style={{
             display: 'flex',
             width: '100%',
-            position: 'absolute',
+            // position: 'absolute',
             margin: 0,
             background: 'rgb(255, 113, 19)'
         }}>

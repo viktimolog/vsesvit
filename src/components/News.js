@@ -41,7 +41,7 @@ const News = () => (
                 background: 'rgb(0,0,0,0.8)',
                 marginLeft: '4%'
             }}>
-                <CardContent style={{marginLeft: '2%'}}>
+                <CardContent style={{marginLeft: '14px'}}>
 
                     <Typography gutterBottom component="p">2018-07-09</Typography>
 
